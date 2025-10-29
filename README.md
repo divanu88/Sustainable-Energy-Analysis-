@@ -9,7 +9,7 @@ Store and query the cleaned data using SQLite for reproducible SQL practice.
 
 Analyze renewable energy share and identify the Top 5 countries by average renewable contribution.
 
-Visualize time-series trends for those top countries using Matplotlib & Seaborn.
+Visualize time-series trends for those top countries using Matplotlib.
 
 Export a Tableau-ready summary dataset for dashboard visualization.
 
