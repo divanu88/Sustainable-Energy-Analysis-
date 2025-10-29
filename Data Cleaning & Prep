@@ -1,0 +1,5 @@
+import pandas as pd
+df = pd.read_excel("sustainable energy data.xlsx")
+df.columns = df.columns.str.replace('[^A-Za-z0-9_]+', '_')
+df = df.dropna(subset=['Entity', 'Year'])
+df['Year'] = df['Year'].astype(int)
